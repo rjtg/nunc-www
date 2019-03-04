@@ -1,4 +1,7 @@
-baseURL = "https://dreamy-dubinsky-8c808e.netlify.com"
+baseURL = "https://www.nunc.sh/
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
